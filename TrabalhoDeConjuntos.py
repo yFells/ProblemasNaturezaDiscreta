@@ -53,9 +53,12 @@ def difer(value1,value2):
 def cart(linhas,colunas):
     lista1 = linhas.replace("\n", "").replace(" ", "").split(",")
     lista2 = colunas.replace("\n", "").replace(" ", "").split(",")
+    SR1 = list(dict.fromkeys(lista1))
+    SR2 = list(dict.fromkeys(lista2))
+
     print("O Resultado dos seus PRODUTOS CARTESIANOS é ")
-    for i in lista1:
-        for c in lista2:
+    for i in SR1:
+        for c in SR2:
             print("(" + i + c + ")", end=",")
 
 for i in range(1, len(conjuntos), 3):
