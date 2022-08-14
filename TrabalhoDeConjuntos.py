@@ -65,6 +65,9 @@ def cart(linhas,colunas):
     print("O Resultado dos seus PRODUTOS CARTESIANOS é ")
     for i in SR1:
         for c in SR2:
+          if c == SR2[len(SR2)-1]:
+            print("(" + i + c + ")")
+          else:
             print("(" + i + c + ")", end=",")
 
 for i in range(1, len(conjuntos), 3):
