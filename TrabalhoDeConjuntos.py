@@ -1,3 +1,9 @@
+""" FELIPE DE LIMA DOS SANTOS, BCC TURMA U, 2° PERIODO"""
+
+""" Para  obter  os  pontos  relativos  a  este  trabalho,  você  deverá  criar  um  programa,  utilizando  a 
+linguagem  Python, C, ou C++.  Este  programa,  quando  executado,  irá  apresentar  os  resultados  de 
+operações que serão realizadas entre dois conjuntos de dados.  """
+
 f = open("trabalhos.txt", 'r')
 conjuntos = f.readlines()
 
